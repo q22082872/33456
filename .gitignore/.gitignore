@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<resources>
+
+<string name="app_name">Sense Toolbox</string>
+
+<string name="app_about">About</string>
+
+<string name="about_version">Version: %1$s (build %2$s)</string>
+
+<string name="support_version">Support (App Version: %1$s)</string>
+
+<string name="soft_reboot">Soft Reboot</string>
+
+<string name="soft_reboot_tip">" Most of the Toolbox mods require soft reboot to be enabled or disabled, but some mods with a list of options require it only once after activation, then changing options will have an immediate effect. List of such mods: Wake gesture actions, all swipe and key actions, Enhanced toasts, EPS apps remap, Sense themes, Popup notifications, Touch lock"</string>
+
+<string name="restart_prism">Restart launcher</string>
+
+<string name="restarted_prism">Launcher was restarted</string>
+
+<string name="restart_messages">Restart Messages</string>
+
+<string name="restarted_messages">Messages app was restarted</string>
+
+<string name="ram_mb">MB</string>
+
+<string name="cpu_mhz">MHz</string>
+
+<string name="backup_restore">Settings management</string>
+
+<string name="backup_restore_choose">Choose the desired routine</string>
+
+<string name="backup_restore_tip">" Backup and restore Sense Toolbox settings using internal storage or SDCard."</string>
+
+<string name="do_backup">Backup</string>
+
+<string name="do_restore">Restore</string>
+
+<string name="storage_read_only">Your external storage is read-only</string>
+
+<string name="storage_unavailable">Unable to get access to any suitable storage</string>
+
+<string name="storage_cannot_mkdir">Failed to create backup directory</string>
+
+<string name="storage_cannot_backup">Failed to create backup file</string>
+
+<string name="storage_cannot_restore">No settings backup found</string>
+
+<string name="backup_ok">Settings were backed up successfully!</string>
+
+<string name="restore_ok">Settings were successfully restored!</string>
+
+<string name="no_point">Disabled on unsupported system</string>
+
+<string name="no_root_summ">Root is required for this mod to work</string>
+
+<string name="no_busybox_summ">BusyBox is required for this mod to work</string>
+
+<string name="no_browser">Browser app is required to open URLs</string>
+
+<string name="no_clock_apps">No clock apps found</string>
+
+<string name="define_lock_seq">Define sequence</string>
+
+<string name="coming_soon">Coming soon</string>
+
+<string name="crash_dialog">Sense Toolbox has just crashed!</string>
+
+<string name="crash_dialog_manual">All necessary data was collected</string>
+
+<string name="crash_dialog_manual_size">Generated report size</string>
+
+<string name="crash_dialog_manual_desc">Describe your problem (in English if possible):</string>
+
+<string name="crash_dialog_manual_desc2">"Describe your actions that led to this crash (in English if possible):"</string>
+
+<string name="crash_dialog_note">"Feedback info is not provided, you won't get a response to this report!"</string>
+
+<string name="crash_needs_inet">Internet connection is required</string>
+
+<string name="crash_needs_desc">Description cannot be blank</string>
+
+<string name="crash_ignore">Ignore</string>
+
+<string name="crash_send">Send report</string>
+
+<string name="crash_result">Sending result</string>
+
+<string name="crash_ok">Report was sent successfully!</string>
+
+<string name="crash_error">Failed to send report</string>
+
+<string name="warning">Warning!</string>
+
+<string name="wrong_sense_version">Your ROM is not Sense based and therefore is not compatible with Sense Toolbox module</string>
+
+<string name="preview_release">Sense 7 is not supported, expect bugs and broken mods. Feedback is not required.</string>
+
+<string name="unsupported_os">Android 6 is not supported! Most of the mods from categories other than Sense are broken.</string>
+
+<string name="update_available">Update is available! Tap here to download</string>
+
+<string name="xposed_not_installed">Xposed Framework is not properly installed, you must install app_process and XposedBridge.jar from Xposed Installer, then activate Sense Toolbox module there and reboot.</string>
+
+<string name="module_not_active">Sense Toolbox module is not active! Open Xposed Installer, activate module and reboot.</string>
+
+<string name="checking_root">Checking device capabilities…</string>
+
+<string name="no_currents">Buttons backlight control not found. Your device may be uncompatible with this mod.</string>
+
+<string name="backup_restore_info">Your settings have been restored via Google Cloud Backup. If you had Vol2wake enabled, please re-enable it manually. Please do a full reboot after enabling the Toolbox Xposed module.</string>
+
+<string name="download_current_ver">Installed update:</string>
+
+<string name="download_update">"No translations found Tap Update to download"</string>
+
+<string name="download_title">Sense Toolbox localization</string>
+
+<string name="download_desc">Downloading translations…</string>
+
+<string name="download_failed">Download failed, check connection</string>
+
+<string name="download_succeeded">Language pack was downloaded and installed, Toolbox will be restarted now</string>
+
+<string name="download_unzip_failed">Unable to unzip language files</string>
+
+<string name="download_same_version">You already have the latest version</string>
+
+<string name="download_version_problem">Failed to read update version</string>
+
+<string name="download_removed">"Language files were removed, Toolbox will be restarted now"</string>
+
+<string name="apm_title">Choose reboot option</string>
+
+<string name="apm_normal_title">Reboot</string>
+
+<string name="apm_normal_summ">Close all apps and restart device</string>
+
+<string name="apm_hotreboot_summ">Restart the shell</string>
+
+<string name="apm_recovery_title">Recovery</string>
+
+<string name="apm_recovery_summ">Reboot directly to recovery</string>
+
+<string name="apm_bootloader_title">Bootloader</string>
+
+<string name="apm_bootloader_summ">Reboot directly to bootloader</string>
+
+<string name="popupnotify_experimental">Experimental! Report any bugs you may encounter.</string>
+
+<string name="popupnotify_dismiss">Dismiss</string>
+
+<string name="popupnotify_dismisssleep">Dismiss and sleep</string>
+
+<string name="popupnotify_dismissonly">Just dismiss</string>
+
+<string name="popupnotify_taptolockscreen">Tap to go back to lockscreen</string>
+
+<string name="popupnotify_nobigview">No expanded view found for this notification</string>
+
+<string name="popupnotify_noview">No standard view found for this notification</string>
+
+<string name="popupnotify_hint">"Enable popup notifications from the action bar above. Soft reboot will be required only once after that."</string>
+
+<string name="popupnotify_blconfirm">Confirmation</string>
+
+<string name="popupnotify_blacklist">%1$s will be added to blacklist. Proceed?</string>
+
+<string name="popupnotify_test">Test popup notifications</string>
+
+<string name="betterheadsup_title">Better heads-up</string>
+
+<string name="betterheadsup_summ">Display any cancelable notification in a horizontally scrollable heads-up</string>
+
+<string name="betterheadsup_hint">"Enable better heads-up notifications from the action bar above. Soft reboot will be required only once after that."</string>
+
+<string name="betterheadsup_tip">"Information Heads-up notifications are not displayed on lockscreen, because an expanded notification drawer is already there."</string>
+
+<string name="betterheadsup_test">Test heads-up notifications</string>
+
+<string name="array_color_dark_lollipop">Grey</string>
+
+<string name="array_color_dark_sense">Dark</string>
+
+<string name="array_color_light">Light</string>
+
+<string name="fleetingglance_hint">"Enable Fleeting Glance from the action bar above. Soft reboot will be required only once after that."</string>
+
+<string name="fleetingglance_no_sensor">"Your device doesn't have this sensor."</string>
+
+<string name="mods">Mods</string>
+
+<string name="not_compatible">Incompatible Android version</string>
+
+<string name="not_compatible_desc">Current Sense Toolbox version is not working on Android 5.0</string>
+
+<string name="not_yet_working">Not yet working on Android 5.0</string>
+
+<string name="xposed_not_found">Xposed Installer not found</string>
+
+<string name="xposed_not_found_explain">"It looks like you don't have Xposed Installed. Please note that the mods on this page will only work with Xposed! Xposed is available in the ARHD installer."</string>
+
+<string name="okay">Okay</string>
+
+<string name="close_camera">Make sure to close camera from recent apps!</string>
+
+<string name="remove">Remove</string>
+
+<string name="delete">Delete</string>
+
+<string name="yes">Yes</string>
+
+<string name="no">No</string>
+
+<string name="hotreboot_explain_prefs">"This will soft reboot your device. Continue?"</string>
+
+<string name="restartprism_explain_prefs">"This will restart BlinkFeed launcher. Continue?"</string>
+
+<string name="restartmessages_explain_prefs">"This will restart Messages app. Continue?"</string>
+
+<string name="success">Success</string>
+
+<string name="disabled_by_toolbox">Disabled by Sense Toolbox</string>
+
+<string name="sunbeam_installed">SunBeam has been installed. Make sure you soft reboot to apply the changes. Remember that you need to reinstall SunBeam after every ROM flash.</string>
+
+<string name="dummy"/>
+
+<string name="transparency_msg">0 = transparent, 100 = opaque</string>
+
+<string name="transparency_enable">Enable transparency</string>
+
+<string name="alarm_interval">0 value will hide alarm icon completely</string>
+
+<string name="systemui_mods">Interface mods</string>
+
+<string name="sense_themes_title">Sense themes</string>
+
+<string name="sense_themes_summ">Change theme for any Sense styled app.</string>
+
+<string name="sense_themes_apply">Apply</string>
+
+<string name="sense_themes_cancel">Cancel</string>
+
+<string name="sense_theme_sep1">Theme</string>
+
+<string name="sense_theme_sep2">Additional info</string>
+
+<string name="sense_theme_remove">Remove</string>
+
+<string name="sense_theme_color_header">Header</string>
+
+<string name="sense_theme_color_controls">Controls</string>
+
+<string name="sense_theme_color_bf">BlinkFeed</string>
+
+<string name="sense_theme_color_misc">Misc</string>
+
+<string name="sense_theme_package_has_profile">This app already has a profile</string>
+
+<string name="sense_theme_hint">"Enable theme colors override from the action bar above. Soft reboot will be required only once after that."</string>
+
+<string name="sense_theme_infoIME">HTC keyboard inherits theme from its parent app, if that app is in the list (you can even add non-HTC apps). Theme above is used otherwise.</string>
+
+<string name="sense_theme_infoSENSE">Selected theme will have no effect if you are using Sense Home 7 launcher. Use its Themes app instead.</string>
+
+<string name="sense_theme_replace_all">Change theme for all apps in the list</string>
+
+<string name="sense_theme_replace_all_title">Change all themes</string>
+
+<string name="sense_theme_remind">"Sense 7 apps no longer support these themes, and Sense Toolbox doesn't support new Sense 7 themes. You can add Settings app to change Toolbox theme and System UI to change theme for brightness slider."</string>
+
+<string name="systemui_statusbar">Status Bar and Notification Drawer</string>
+
+<string name="systemui_tsb_title">Transparent status bar</string>
+
+<string name="systemui_tsb_summ">Make status bar fully transparent in launcher, in apps with translucent statusbar and on lockscreen.</string>
+
+<string name="systemui_tnb_title">Transparent notification background</string>
+
+<string name="systemui_tnb_summ">Make the notification drawer background transparent.</string>
+
+<string name="systemui_footeralpha_title">Transparent notification footer</string>
+
+<string name="systemui_footeralpha_summ">Choose notification drawer footer transparency mode.</string>
+
+<string name="systemui_tnsb_title">Translucent notifications</string>
+
+<string name="systemui_tnsb_summ">Remove background from all notifications.</string>
+
+<string name="systemui_eqs">Extended Quick Settings</string>
+
+<string name="systemui_brightqs_title">Brightness</string>
+
+<string name="systemui_brightqs_summ">Configure brightness values for EQS tile.</string>
+
+<string name="systemui_timeoutqs_title">Timeout</string>
+
+<string name="systemui_timeoutqs_summ">Configure timeout values for EQS tile.</string>
+
+<string name="systemui_teqs_title">Translucent EQS</string>
+
+<string name="systemui_teqs_summ">Remove background from quick settings tiles.</string>
+
+<string name="systemui_heqs_title">Horizontal EQS</string>
+
+<string name="systemui_heqs_summ">Enable horizontal EQS. Your normal EQS will be there (scrollable).</string>
+
+<string name="systemui_theqs_title">Translucent horizontal EQS</string>
+
+<string name="systemui_theqs_summ">Remove background from horizontal quick settings.</string>
+
+<string name="systemui_heqs_notext_title">Smaller horizontal EQS</string>
+
+<string name="systemui_heqs_notext_summ">Removes the text from horizontal EQS.</string>
+
+<string name="systemui_noeqs_title">Disable EQS panel</string>
+
+<string name="systemui_noeqs_summ">Remove EQS panel and restore settings button.</string>
+
+<string name="systemui_compacteqs_title">Compact EQS</string>
+
+<string name="systemui_compacteqs_summ">Remove EQS labels and position 6 tiles in a row in portrait orientation and 12 in landscape.</string>
+
+<string name="systemui_autoeqs_title">Auto EQS</string>
+
+<string name="systemui_autoeqs_summ">Pull down EQS using single finger swipe.</string>
+
+<string name="systemui_restoretiles_title">Restore tiles</string>
+
+<string name="systemui_restoretiles_summ">Bring back Ringtone and Usage quick settings.</string>
+
+<string name="systemui_recent">Recent Apps</string>
+
+<string name="systemui_aosp_title">AOSP recent apps</string>
+
+<string name="systemui_aosp_summ">Enable AOSP style recent apps screen.</string>
+
+<string name="systemui_recentclear_title">Close all recent apps at once</string>
+
+<string name="systemui_recentclear_summ">Add ability to clear recent apps list by pinching or swiping down.</string>
+
+<string name="systemui_recentram_title">RAM usage</string>
+
+<string name="systemui_recentram_summ">Show the amount of RAM used by recent apps.</string>
+
+<string name="systemui_hqthumbs_title">High quality thumbnails</string>
+
+<string name="systemui_hqthumbs_summ">Disable thumbnail conversion that reduces color data.</string>
+
+<string name="systemui_ampmremove_title">Remove AM/PM</string>
+
+<string name="systemui_ampmremove_summ">Strip the AM/PM from the status bar clock in 12h mode.</string>
+
+<string name="systemui_clockseconds_title">Show seconds</string>
+
+<string name="systemui_clockseconds_summ">Display seconds in the status bar clock.</string>
+
+<string name="systemui_clockstyle_title">Clock style</string>
+
+<string name="systemui_clockstyle_summ">Changes the style of the status bar clock.</string>
+
+<string name="systemui_statusheaderclick_title">Header click</string>
+
+<string name="systemui_statusheaderclick_summ">Action for tap on notification drawer header.</string>
+
+<string name="controls_clockaction_title">Clock app</string>
+
+<string name="controls_clockaction_summ">Launches any app or shortcut instead of stock Clock app on header clock tap.</string>
+
+<string name="controls_dateaction_title">Calendar app</string>
+
+<string name="controls_dateaction_summ">Launches any app or shortcut on header date tap.</string>
+
+<string name="systemui_brightslide_title">Brightness slider</string>
+
+<string name="systemui_brightslide_summ">Add a brightness slider to the notification panel.</string>
+
+<string name="systemui_brightslide_auto">Auto</string>
+
+<string name="systemui_dataratestatus_title">Traffic meter</string>
+
+<string name="systemui_dataratestatus_summ">Add current download+upload speed to statusbar. Visible only when device is connected to any network.</string>
+
+<string name="systemui_alarmnotify_title">Display next alarm</string>
+
+<string name="systemui_alarmnotify_summ">Show next alarm time instead of carrier name in notification drawer.</string>
+
+<string name="systemui_signalnotify_title">Display signal strength</string>
+
+<string name="systemui_signalnotify_summ">Show current signal level next to carrier name in notification drawer.</string>
+
+<string name="next_alarm">Next alarm</string>
+
+<string name="header_longclick_ussd_processing">Retrieving data…</string>
+
+<string name="brightpicker_switch">Enable custom levels</string>
+
+<string name="brightpicker_desc">Choose four different values</string>
+
+<string name="brightpicker_warn_text">All brightness values must be different</string>
+
+<string name="timeoutpicker_switch">Enable custom values</string>
+
+<string name="timeoutpicker_desc">Choose three different values</string>
+
+<string name="timeoutpicker_warn_text">All timeout values must be different</string>
+
+<string name="cleanbeam_mods">Statusbar icons</string>
+
+<string name="cleanbeam_colortheme_title">Color theme</string>
+
+<string name="cleanbeam_colortheme_summ">Global theme for all icon sets excluding multicolor ones.</string>
+
+<string name="cleanbeam_colortheme_hue">Hue</string>
+
+<string name="cleanbeam_colortheme_sat">Saturation</string>
+
+<string name="cleanbeam_colortheme_preset">Presets</string>
+
+<string name="cleanbeam_battery_title">Battery icon</string>
+
+<string name="cleanbeam_battery_summ">Change battery icon design.</string>
+
+<string name="cleanbeam_texts_title">Labels</string>
+
+<string name="cleanbeam_texts_summ">Use theme color for clock, battery percentage and traffic meter.</string>
+
+<string name="cleanbeam_signal_title">Signal bar</string>
+
+<string name="cleanbeam_signal_summ">Enable signal bar icons replacement.</string>
+
+<string name="cleanbeam_data_title">Mobile data</string>
+
+<string name="cleanbeam_data_summ">Enable mobile data icons replacement.</string>
+
+<string name="cleanbeam_headphone_title">Headphone</string>
+
+<string name="cleanbeam_headphone_summ">Enable headphone icons replacement.</string>
+
+<string name="cleanbeam_beats_title">Beats</string>
+
+<string name="cleanbeam_soundhide_title">Beats/BoomSound/LiveStage/Clari-Fi</string>
+
+<string name="cleanbeam_beats_summ">Enable Beats icon replacement.</string>
+
+<string name="cleanbeam_profile_title">Sound profile</string>
+
+<string name="cleanbeam_profile_summ">Enable sound profile icons replacement.</string>
+
+<string name="cleanbeam_alarm_title">Alarm</string>
+
+<string name="cleanbeam_alarm_summ">Enable alarm icon replacement.</string>
+
+<string name="cleanbeam_wifi_title">WiFi</string>
+
+<string name="cleanbeam_wifi_summ">Change WiFi icon design.</string>
+
+<string name="cleanbeam_sync_title">Sync</string>
+
+<string name="cleanbeam_sync_summ">Enable sync icons replacement.</string>
+
+<string name="cleanbeam_gps_title">GPS</string>
+
+<string name="cleanbeam_gps_summ">Enable GPS icons replacement.</string>
+
+<string name="cleanbeam_bt_title">Bluetooth</string>
+
+<string name="cleanbeam_bt_summ">Enable Bluetooth icons replacement.</string>
+
+<string name="cleanbeam_screenshot_title">Screenshot</string>
+
+<string name="cleanbeam_screenshot_summ">Enable Screenshot icon replacement.</string>
+
+<string name="cleanbeam_usb_title">USB</string>
+
+<string name="cleanbeam_usb_summ">Enable USB icon replacement.</string>
+
+<string name="cleanbeam_powersave_title">Powersave</string>
+
+<string name="cleanbeam_powersave_summ">Enable Powersave icon replacement.</string>
+
+<string name="cleanbeam_nfc_title">NFC</string>
+
+<string name="cleanbeam_nfc_summ">Enable NFC icon replacement.</string>
+
+<string name="cleanbeam_dnd_title">Do not disturb</string>
+
+<string name="cleanbeam_dnd_summ">Enable DND icon replacement.</string>
+
+<string name="cleanbeam_zen_title">Interruptions</string>
+
+<string name="cleanbeam_mtp_title">MTP</string>
+
+<string name="cleanbeam_mtp_summ">Enable MTP icon replacement.</string>
+
+<string name="cleanbeam_phone_title">Phone</string>
+
+<string name="cleanbeam_phone_summ">Enable phone icons replacement.</string>
+
+<string name="cleanbeam_tv_title">TV</string>
+
+<string name="cleanbeam_tv_summ">Enable TV remote icon replacement.</string>
+
+<string name="hideicons_title">Hide statusbar icons</string>
+
+<string name="hideicons_summ">Select icons you want to prevent from showing.</string>
+
+<string name="selectivealarmicon_title">Selective alarm icon visibility</string>
+
+<string name="selectivealarmicon_summ">Show alarm icon only during the defined number of hours before next alarm.</string>
+
+<string name="cleanbeam_sunbeam_title">Install Sunbeam</string>
+
+<string name="cleanbeam_sunbeam_summ">Install the Sunbeam Live Wallpaper.</string>
+
+<string name="cleanbeam_mods_credits_head">Credits</string>
+
+<string name="cleanbeam_post_title">Vomer</string>
+
+<string name="cleanbeam_post_summ">For the icons and the SunBeam wallpaper.</string>
+
+<string name="sense_mods">Sense mods</string>
+
+<string name="sense_transparency">Transparency</string>
+
+<string name="sense_homescreen">Home screen</string>
+
+<string name="sense_appdrawer">App drawer</string>
+
+<string name="sense_gestures">Gestures</string>
+
+<string name="sense_twidget_title">Clock and weather widget</string>
+
+<string name="sense_twidget_summ">Make the background panels of 4x1 and 4x2 clock/weather widgets transparent.</string>
+
+<string name="sense_gappwidget_title">Google App widget</string>
+
+<string name="sense_gappwidget_summ">"Select Google Search widget's background style."</string>
+
+<string name="sense_tappdrawer_title">App drawer</string>
+
+<string name="sense_tappdrawer_summ">Make the Sense launcher app drawer transparent.</string>
+
+<string name="sense_tfolders_title">Folders</string>
+
+<string name="sense_tfolders_summ">Make folders background transparent.</string>
+
+<string name="sense_tfoldersbkg_title">Folder icons</string>
+
+<string name="sense_tfoldersbkg_summ">Make folder icons background transparent.</string>
+
+<string name="sense_abtransp_title">App drawer action bar</string>
+
+<string name="sense_abtransp_summ">Remove action bar background in app drawer.</string>
+
+<string name="sense_hotseattransp_title">Launcher dock</string>
+
+<string name="sense_hotseattransp_summ">Remove gradient dock background.</string>
+
+<string name="sense_peoplewidgettransp_title">People widget</string>
+
+<string name="sense_peoplewidgettransp_summ">Remove people widget background and footer.</string>
+
+<string name="sense_musicwidgettransp_title">Music widget</string>
+
+<string name="sense_musicwidgettransp_summ">Remove music widget background.</string>
+
+<string name="sense_infini_title">Infinifolders</string>
+
+<string name="sense_infini_summ">Allow infinite icons in folders.</string>
+
+<string name="sense_homemenu_title">Home popup menu</string>
+
+<string name="sense_homemenu_summ">Show popup menu with useful commands on Menu press or Home longpress in launcher.</string>
+
+<string name="sense_gridtinyfont_title">Small app drawer grid font</string>
+
+<string name="sense_gridtinyfont_summ">Reduce titles font size for 6-row app drawer grids</string>
+
+<string name="sense_nopageindicator_title">Hide page indicator</string>
+
+<string name="sense_nopageindicator_summ">Remove page indicator from app drawer</string>
+
+<string name="sense_appslongpressaction_title">App drawer icon action</string>
+
+<string name="sense_appslongpressaction_summ">Action for app drawer icon long press.</string>
+
+<string name="sense_swipedownaction_title">Swipe down action</string>
+
+<string name="sense_swipedownaction_summ">Action for swipe down gesture on any home screen.</string>
+
+<string name="sense_swipeupaction_title">Swipe up action</string>
+
+<string name="sense_swipeupaction_summ">Action for swipe up gesture on any home screen.</string>
+
+<string name="sense_swiperightaction_title">Swipe right action</string>
+
+<string name="sense_swiperightaction_summ">Action for swipe right gesture on launcher dock.</string>
+
+<string name="sense_swipeleftaction_title">Swipe left action</string>
+
+<string name="sense_swipeleftaction_summ">Action for swipe left gesture on launcher dock.</string>
+
+<string name="sense_shakeaction_title">Shake action</string>
+
+<string name="sense_shakeaction_summ">Action for shaking the device on any home screen.</string>
+
+<string name="sense_sevenscreens_title">Seven home screens</string>
+
+<string name="sense_sevenscreens_summ">Increase maximum number of home screens to seven including BlinkFeed.</string>
+
+<string name="sense_4x5homescreen_title">Grid 4x5</string>
+
+<string name="sense_4x5homescreen_summ">Adds another row to all home screens.</string>
+
+<string name="sense_gapfix_title">Equalize gaps</string>
+
+<string name="sense_gapfix_summ">Make the gaps between all 5 rows on stock 4x4 homescreens equal.</string>
+
+<string name="sense_hidepageindicator_title">Autohide page indicator</string>
+
+<string name="sense_hidepageindicator_summ">Automatically fade out page indicator on homescreens. Sense Home launcher 8 only.</string>
+
+<string name="sense_invisilabels_title">Remove icon labels</string>
+
+<string name="sense_invisilabels_summ">Removes the app and folder icon labels on home screens.</string>
+
+<string name="sense_blinkfeednodock_title">Hide dock on BlinkFeed</string>
+
+<string name="sense_blinkfeednodock_summ">"Extend BlinkFeed's visible area by hiding bottom icon dock."</string>
+
+<string name="sense_blinkfeedimmersive_title">Immersive BlinkFeed</string>
+
+<string name="sense_blinkfeedimmersive_summ">Remove action bar and make statusbar semitransparent in article view. You can access removed elements using Menu key.</string>
+
+<string name="sense_blinkfeedicon_title">BlinkFeed shortcut</string>
+
+<string name="sense_blinkfeedicon_summ">"Add shortcut to app drawer that leads directly to BlinkFeed. Reboot is not required. Uncheck this option to remove shortcut, don't uninstall it!"</string>
+
+<string name="sense_transitions_title">Transitions</string>
+
+<string name="sense_transitions_summ">Change transition animations between apps and launcher. Soft reboot is required!</string>
+
+<string name="notselected">Not selected</string>
+
+<string name="loading_app_data">Loading apps…</string>
+
+<string name="locked_warning">Please unlock launcher first!</string>
+
+<string name="message_mods">Messaging mods</string>
+
+<string name="message_smsmms_title">Disable SMS -> MMS conversion</string>
+
+<string name="message_smsmms_summ">Check to disable the forced SMS to MMS conversion by the character limit. Network limitations still apply.</string>
+
+<string name="message_smswake_title">Wake on SMS</string>
+
+<string name="message_smswake_summ">Turn the screen on, when you receive a SMS.</string>
+
+<string name="message_toast_title">Toast delivery reports</string>
+
+<string name="message_toast_summ">Show a toast instead of a notification for delivery reports.</string>
+
+<string name="message_size_title">Raise MMS size</string>
+
+<string name="message_size_summ">Raise the MMS size limit to 300k, 600k, 1000k.</string>
+
+<string name="message_accents_title">Enable accent support</string>
+
+<string name="message_accents_summ">Enable accent support option in SMS settings.</string>
+
+<string name="controls_mods">Controls mods</string>
+
+<string name="controls_mods_backlongpress">Back button long press</string>
+
+<string name="controls_backlongpressaction_title">Action</string>
+
+<string name="controls_backlongpressaction_summ">Action for back button long press.</string>
+
+<string name="controls_mods_homeassist">Home assist</string>
+
+<string name="controls_mods_wiredheadset">Wired headset</string>
+
+<string name="controls_mods_btheadset">Bluetooth audio</string>
+
+<string name="controls_no_recents">No recent apps yet</string>
+
+<string name="controls_mods_recentslongpress">Recents button long press</string>
+
+<string name="controls_homeassistaction_title">Action</string>
+
+<string name="controls_homeassistaction_summ">Overrides assist action (which is Google Now by default).</string>
+
+<string name="controls_headsetonaction_title">Connected</string>
+
+<string name="controls_headsetonaction_summ">Executes action when device is connected.</string>
+
+<string name="controls_headsetoneffect_title">Global effect</string>
+
+<string name="controls_headsetoneffect_summ">Change global audio effect.</string>
+
+<string name="controls_headsetoffaction_title">Disconnected</string>
+
+<string name="controls_headsetoffaction_summ">Executes action when device is disconnected.</string>
+
+<string name="controls_headsetoffeffect_title">Global effect</string>
+
+<string name="controls_headsetoffeffect_summ">Change global audio effect.</string>
+
+<string name="controls_recentslongpressaction_summ">Assigns action to recents button long press.</string>
+
+<string name="controls_vol2wake_title">Volume2Wake</string>
+
+<string name="controls_vol2wake_summ">Wake your phone with the volume keys. Requires rooted device with init.d support! Make a FULL reboot to apply!</string>
+
+<string name="controls_powerflash_title">Quick flashlight</string>
+
+<string name="controls_powerflash_summ">Long press power button while screen is off to turn flashlight on and off.</string>
+
+<string name="controls_powerflash_delay_title">Longer quick flashlight delay</string>
+
+<string name="controls_powerflash_delay_summ">Increases the power button long press delay.</string>
+
+<string name="controls_swapvolume_title">Swap volume buttons in CCW landscape</string>
+
+<string name="controls_swapvolume_summ">Match volume up/down with slider movements to the right/left in counterclockwise landscape.</string>
+
+<string name="controls_mods_volume">Volume keys</string>
+
+<string name="controls_vol_up_cam_title">Volume Up action</string>
+
+<string name="controls_vol_up_cam_summ">The action for Volume Up in camera.</string>
+
+<string name="controls_vol_down_cam_title">Volume Down action</string>
+
+<string name="controls_vol_down_cam_summ">The action for Volume Down in camera.</string>
+
+<string name="controls_vol_up_media_title">Volume Up long press action</string>
+
+<string name="controls_vol_up_media_summ">The action for Volume Up long press when screen is off.</string>
+
+<string name="controls_vol_down_media_title">Volume Down long press action</string>
+
+<string name="controls_vol_down_media_summ">The action for Volume Down long press when screen is off.</string>
+
+<string name="controls_smallsoftkeys_title">Small softkeys</string>
+
+<string name="controls_smallsoftkeys_summ">Reduce the height of the softkey bar.</string>
+
+<string name="controls_extendedpanel_title">Extended assist panel</string>
+
+<string name="controls_extendedpanel_summ">Add 2 additional shortcuts to the selector on swipe up from Home.</string>
+
+<string name="controls_extendedpanel_left_title">Left shortcut</string>
+
+<string name="controls_extendedpanel_left_summ">Define an action for left shortcut in extended assist panel.</string>
+
+<string name="controls_extendedpanel_right_title">Right shortcut</string>
+
+<string name="controls_extendedpanel_right_summ">Define an action for right shortcut in extended assist panel.</string>
+
+<string name="controls_keyshaptic_title">Keys haptic feedback</string>
+
+<string name="controls_keyshaptic_summ">Define the vibration duration for navigation keys.</string>
+
+<string name="controls_longpresshaptic_title">Long press haptic feedback</string>
+
+<string name="controls_longpresshaptic_summ">Define the vibration duration for long press.</string>
+
+<string name="controls_keyboardhaptic_title">Sense keyboard haptic feedback</string>
+
+<string name="controls_keyboardhaptic_summ">Define the vibration duration for Sense keyboard.</string>
+
+<string name="controls_keyshaptic_desc">Vibration duration</string>
+
+<string name="controls_keyshaptic_testbtn">Test current value</string>
+
+<string name="seekbar_mod_enable">Enable mod</string>
+
+<string name="seekbar_custom_enable">Enable custom value</string>
+
+<string name="kill_foreground">Kill foreground app</string>
+
+<string name="open_menu">Open menu</string>
+
+<string name="open_recents">Show recent apps</string>
+
+<string name="switch_to_previous">Switch to previous app</string>
+
+<string name="quick_recents">Recents quick access</string>
+
+<string name="various_mods">Various mods</string>
+
+<string name="various_mods_screenanim">Screen animations</string>
+
+<string name="various_popupnotify_title">Popup notifications</string>
+
+<string name="various_popupnotify_summ">Display cancelable notifications in a horizontally scrollable popup</string>
+
+<string name="various_popupnotify_priority_title">Low priority</string>
+
+<string name="various_popupnotify_priority_summ">Display popups for low priority notifications.</string>
+
+<string name="various_betterheadsup_priority_title">Low and minimum priority</string>
+
+<string name="various_betterheadsup_priority_summ">Display heads-ups for notifications with priority lower than default.</string>
+
+<string name="various_popupnotify_expand_title">Expand</string>
+
+<string name="various_popupnotify_expand_summ">Always show expanded notification view.</string>
+
+<string name="various_betterheadsup_expand_title">Expand</string>
+
+<string name="various_betterheadsup_expand_summ">Always show expanded notification view in portrait mode. Landscape orientation will still force compact view.</string>
+
+<string name="various_popupnotify_fullscreen_title">Respect fullscreen</string>
+
+<string name="various_popupnotify_fullscreen_summ">Do not show popups when fullscreen app is active (does not apply to immersive apps with hidden status and navigation bars).</string>
+
+<string name="various_betterheadsup_fullscreen_title">Respect fullscreen</string>
+
+<string name="various_betterheadsup_fullscreen_summ">Do not show heads-ups when fullscreen app is active (does not apply to immersive apps with hidden status and navigation bars).</string>
+
+<string name="various_popupnotify_lightup_title">Wake screen</string>
+
+<string name="various_popupnotify_lightup_summ">Force screen light up on every popup.</string>
+
+<string name="various_betterheadsup_lightup_title">Wake screen</string>
+
+<string name="various_betterheadsup_lightup_summ">Force screen light up on every heads-up.</string>
+
+<string name="various_popupnotify_sleepmode_title">Unobtrusive mode</string>
+
+<string name="various_popupnotify_sleepmode_summ">Display new popups only if screen is off.</string>
+
+<string name="various_betterheadsup_sleepmode_title">Unobtrusive mode</string>
+
+<string name="various_betterheadsup_sleepmode_summ">Display new heads-ups only if screen is off.</string>
+
+<string name="various_betterheadsup_nodismiss_title">Hide Dismiss button</string>
+
+<string name="various_betterheadsup_nodismiss_summ">Do not display Dismiss button in heads-up window. You can still remove notifications by long pressing them.</string>
+
+<string name="various_popupnotify_backclick_title">Close all popups</string>
+
+<string name="various_popupnotify_backclick_summ">Tap anywhere outside notification to close all popups at once.</string>
+
+<string name="various_popupnotify_clock_title">Header content</string>
+
+<string name="various_popupnotify_clock_summ">Show DashClock widget, time and date or nothing above popup.</string>
+
+<string name="various_popupnotify_back_title">Background style</string>
+
+<string name="various_popupnotify_back_summ">"Select different types of background defocus. Blur works only if screen is on when notification arrives."</string>
+
+<string name="various_popupnotify_bwlist_title">Inverse filter</string>
+
+<string name="various_popupnotify_bwlist_summ">Apps are blacklisted by default, turn this option on to whitelist them instead.</string>
+
+<string name="various_popupnotify_bwlist_black_title">Blacklist</string>
+
+<string name="various_popupnotify_bwlist_black_summ">All cancelable notifications will be shown in popups except those from selected apps. You can quickly blacklist app by long pressing Dismiss button in popup window.</string>
+
+<string name="various_betterheadsup_bwlist_black_title">Blacklist</string>
+
+<string name="various_betterheadsup_bwlist_black_summ">All cancelable notifications will be shown in heads-ups except those from selected apps. You can quickly blacklist app by long pressing Dismiss button in heads-up window.</string>
+
+<string name="various_popupnotify_bwlist_white_title">Whitelist</string>
+
+<string name="various_popupnotify_bwlist_white_summ">Popups will be shown only for notifications from selected apps.</string>
+
+<string name="various_betterheadsup_bwlist_white_title">Whitelist</string>
+
+<string name="various_betterheadsup_bwlist_white_summ">Heads-ups will be shown only for notifications from selected apps.</string>
+
+<string name="various_betterheadsup_ignorelist_title">Do not disturb</string>
+
+<string name="various_betterheadsup_ignorelist_summ">Heads-ups will not be shown if these apps are currently active.</string>
+
+<string name="various_betterheadsup_themes">Notification themes</string>
+
+<string name="various_betterheadsup_theme_preset_title">Complete presets</string>
+
+<string name="various_betterheadsup_theme_preset_summ">Predefined sets of colors</string>
+
+<string name="various_betterheadsup_theme_background_title">Background</string>
+
+<string name="various_betterheadsup_theme_background_summ">Notification background color</string>
+
+<string name="various_betterheadsup_theme_primary_title">Primary text</string>
+
+<string name="various_betterheadsup_theme_primary_summ">Notification and tab titles color</string>
+
+<string name="various_betterheadsup_theme_secondary_title">Secondary text</string>
+
+<string name="various_betterheadsup_theme_secondary_summ">Notification text color</string>
+
+<string name="various_betterheadsup_theme_dismiss_title">Dismiss button</string>
+
+<string name="various_betterheadsup_theme_dismiss_summ">Color for dismiss button background</string>
+
+<string name="various_betterheadsup_theme_dividers_title">Other</string>
+
+<string name="various_betterheadsup_theme_dividers_summ">Page indicators and tab dividers</string>
+
+<string name="various_extremepower_title">EPS apps remap</string>
+
+<string name="various_extremepower_summ">Choose 6 custom apps for extreme power saving mode.</string>
+
+<string name="various_fleetingglance_title">Fleeting glance</string>
+
+<string name="various_fleetingglance_summ">Check notifications without touching the screen.</string>
+
+<string name="various_extremepower_cell">Cell</string>
+
+<string name="various_extremepower_hint">Extreme Power Saving mode can be turned off by long pressing any tile if this mod is active</string>
+
+<string name="various_eps_hint">"Enable EPS remap from the action bar above. Soft reboot will be required only once after that."</string>
+
+<string name="various_touchlock_title">Touch lock</string>
+
+<string name="various_touchlock_summ">Lock device until proper sequence of taps is performed</string>
+
+<string name="various_screenon_title">On animation</string>
+
+<string name="various_screenon_summ">Animation for turning screen on</string>
+
+<string name="various_screenoff_title">Off animation</string>
+
+<string name="various_screenoff_summ">Animation for turning screen off</string>
+
+<string name="various_screenrotate_title">Rotation animation</string>
+
+<string name="various_screenrotate_summ">Animation for orientation changes (duration is fixed)</string>
+
+<string name="various_screenanim_duration_title">Animation duration</string>
+
+<string name="various_screenanim_duration_summ">Configure animation length</string>
+
+<string name="various_screenanim_desc">0 value will disable animations</string>
+
+<string name="various_apm_title">APM</string>
+
+<string name="various_apm_summ">"Enable or disable Advanced Power Menu If you have the native APM installed, better keep this disabled."</string>
+
+<string name="various_scron_title">"Enable 'Stay awake'"</string>
+
+<string name="various_scron_summ">"Show the 'Stay awake' setting in developer options."</string>
+
+<string name="various_textmagnifier_title">Text magnifier</string>
+
+<string name="various_textmagnifier_summ">Show magnifier when positioning cursor in text fields.</string>
+
+<string name="various_apps_title">Show additional app details</string>
+
+<string name="various_apps_summ">"Add new fields to Settings > Apps: - button to launch an app - apk filename and path - data path - process name - user id - target SDK version"</string>
+
+<string name="various_mods_lockscreen">HTC Lock Screen</string>
+
+<string name="various_mods_senseinput">HTC Sense Input</string>
+
+<string name="various_mods_toasts">Toasts</string>
+
+<string name="various_mods_notifications">Notifications</string>
+
+<string name="various_mods_calls">Calls</string>
+
+<string name="various_largephoto_title">Caller photo</string>
+
+<string name="various_largephoto_summ">Change the size of the photo displayed during incoming and outgoing calls.</string>
+
+<string name="various_rejectedcall_title">Disable rejected call reminder</string>
+
+<string name="various_rejectedcall_summ">"Don't show missed call notification for manually rejected incoming calls. They will be added to call history as normal finished calls."</string>
+
+<string name="various_nofliptomute_title">Disable Flip to mute</string>
+
+<string name="various_nofliptomute_summ">"Don't mute incoming call ringer when device is flipped."</string>
+
+<string name="various_nobacktomute_title">Disable Back to mute</string>
+
+<string name="various_nobacktomute_summ">"Don't mute incoming call ringer when Back button is pressed. Mostly for Dual SIM devices with hardware buttons."</string>
+
+<string name="various_nameorder_title">Contacts name order</string>
+
+<string name="various_nameorder_summ">"Force 'Last name first' order in contacts, call history and dialer."</string>
+
+<string name="various_callvibrateon_title">Vibrate on connect</string>
+
+<string name="various_callvibrateon_summ">Always vibrate when outgoing call is connected even if proximity sensor is covered.</string>
+
+<string name="various_callvibrateoff_title">Vibrate on disconnect</string>
+
+<string name="various_callvibrateoff_summ">Add vibration when call is disconnected.</string>
+
+<string name="various_callvibratedur_title">Vibration duration</string>
+
+<string name="various_callvibratedur_summ">Change duration of vibrations that happen on call connect and disconnect.</string>
+
+<string name="various_mods_volume">Volume</string>
+
+<string name="various_volsnd_title">Disable volume change sound</string>
+
+<string name="various_volsnd_summ">Check to disable the sound on volume change.</string>
+
+<string name="various_volsafe_title">Disable safe volume warning</string>
+
+<string name="various_volsafe_summ">Turn off a confirmation dialog when volume is raised above recommended level in headphones.</string>
+
+<string name="various_movevol_title">Volume dialog position</string>
+
+<string name="various_movevol_summ">"Make volume dialog bottom aligned so it won't block the view."</string>
+
+<string name="various_mtpnotif_title">Hide MTP notification</string>
+
+<string name="various_mtpnotif_summ">Make MTP service background and disable notification.</string>
+
+<string name="various_dndnotif_title">Hide DND notification</string>
+
+<string name="various_dndnotif_summ">Disable Do Not Disturb notification.</string>
+
+<string name="various_powersavenotif_title">Hide Power Saver notification</string>
+
+<string name="various_powersavenotif_summ">Disable Power Saver notification.</string>
+
+<string name="various_imenotif_title">Hide Input Method notification</string>
+
+<string name="various_imenotif_summ">Disable Input Method notification.</string>
+
+<string name="various_beatsnotif_title">Hide Beats/BoomSound notification</string>
+
+<string name="various_beatsnotif_summ">Disable current audio effect notification.</string>
+
+<string name="various_vzwnotif_title">Hide Wi-Fi notifications</string>
+
+<string name="various_vzwnotif_summ">Disable Wi-Fi notifications on Verizon devices.</string>
+
+<string name="various_fastunlock_title">Fast unlock</string>
+
+<string name="various_fastunlock_summ">Unlock device as soon as correct PIN or password are entered.</string>
+
+<string name="various_ytwatermark_title">YouTube channel watermark</string>
+
+<string name="various_ytwatermark_summ">Hide channel logo overlay on videos in YouTube app.</string>
+
+<string name="various_psscrolltotop_title">Play Store fast scroll to top</string>
+
+<string name="various_psscrolltotop_summ">Tap status bar while in Google Play Store to scroll current page to top. Mod is not guaranteed to work with Play Store of version below 5.0.</string>
+
+<string name="various_contactsnocorner_title">Contacts photo frame</string>
+
+<string name="various_contactsnocorner_summ">"Remove a frame with bottom right corner from contacts' photos."</string>
+
+<string name="various_oldtoasts_title">Sense 6 styled toasts</string>
+
+<string name="various_oldtoasts_summ">Make toasts darker with smaller rounded corners radius.</string>
+
+<string name="various_iconlabletoasts_title">Enhanced toasts</string>
+
+<string name="various_iconlabletoasts_summ">"Add application's icon and label to its toasts."</string>
+
+<string name="various_securelock_title">Enhanced screen lock</string>
+
+<string name="various_securelock_summ">Disable power menu and hardware reset notification while screen lock is active.</string>
+
+<string name="various_secureeqs_title">Restrict EQS</string>
+
+<string name="various_secureeqs_summ">Disable quick settings drawer on secure lock screen.</string>
+
+<string name="various_scramblepin_title">Scramble PIN</string>
+
+<string name="various_scramblepin_summ">Randomly change PIN buttons order to improve security.</string>
+
+<string name="various_keyslight_title">Hardware buttons backlight</string>
+
+<string name="various_keyslight_summ">Change backlight brightness for buttons.</string>
+
+<string name="various_keyslight_auto_title">Dynamic backlight</string>
+
+<string name="various_keyslight_auto_summ">Turn off buttons backlight in fullscreen apps.</string>
+
+<string name="various_musicchannel_title">HTC Music Channel</string>
+
+<string name="various_musicchannel_summ">Enable HTC music visualizations to be available for any audio player. Launch it from notification while music is playing. Notification visibility can be quickly toggled from Settings.</string>
+
+<string name="various_bindhtcwidgets_title">Unblock HTC widgets</string>
+
+<string name="various_bindhtcwidgets_summ">Allow HTC widgets in any launcher.</string>
+
+<string name="various_nolightuponcharge_title">No screen light up on charge</string>
+
+<string name="various_nolightuponcharge_summ">Do not turn screen on when you connect the charger. Mod conflicts with native wake gestures!</string>
+
+<string name="various_noautocorrect_title">No autocorrect</string>
+
+<string name="various_noautocorrect_summ">Disable autocorrect while keeping word prediction enabled.</string>
+
+<string name="various_noautoime_title">No auto soft input</string>
+
+<string name="various_noautoime_summ">Show keyboard only if you requested it.</string>
+
+<string name="various_tracecolor_title">Themed trace color</string>
+
+<string name="various_tracecolor_summ">"Paint trace using current theme's highlight color."</string>
+
+<string name="various_tracealpha_title">Trace opacity</string>
+
+<string name="various_tracealpha_summ">Change trace opacity. Default is 50%.</string>
+
+<string name="various_allrotations_title">All rotations</string>
+
+<string name="various_allrotations_summ">Allow 180 degree orientation additionally to stock 90 and 270.</string>
+
+<string name="various_nolowbattwarn_title">Disable low battery warning</string>
+
+<string name="various_nolowbattwarn_summ">Turn off low battery popup dialog and sound tone.</string>
+
+<string name="various_nochargerwarn_title">Disable slow charge warning</string>
+
+<string name="various_nochargerwarn_summ">Turn off slow charging notification.</string>
+
+<string name="various_ledoncharge_title">LED during charge</string>
+
+<string name="various_ledoncharge_summ">Enable LED notifications while device is charging.</string>
+
+<string name="various_ledtimeout_title">LED timeout</string>
+
+<string name="various_ledtimeout_summ">Set the time LED will blink after notification is received.</string>
+
+<string name="ledtimeoutpicker_switch">Enable custom timeout</string>
+
+<string name="various_screendelete_title">Screenshot deletion</string>
+
+<string name="various_screendelete_summ">Add Delete action to the screenshot notification.</string>
+
+<string name="various_screenopen_title">Select app to view screenshots</string>
+
+<string name="various_screenopen_summ">Change screenshot notification to use viewer app selection dialog.</string>
+
+<string name="various_screenopen_noapps">No apps found to view this screenshot</string>
+
+<string name="various_fleetingglance_screenbright_title">Screen brightness</string>
+
+<string name="various_fleetingglance_screenbright_summ">Brightness during the glance. Minimum is the default.</string>
+
+<string name="various_fleetingglance_timeout_title">Screen timeout</string>
+
+<string name="various_fleetingglance_timeout_summ">Duration of the glance. Default is 5 seconds.</string>
+
+<string name="various_fleetingglance_triggerevents">Triggering events</string>
+
+<string name="various_fleetingglance_notification_title">Notifications</string>
+
+<string name="various_fleetingglance_notification_summ">Glance when new notification arrives.</string>
+
+<string name="various_fleetingglance_sigmotion_title">Significant motion</string>
+
+<string name="various_fleetingglance_sigmotion_summ">Glance on any fast movement of the device.</string>
+
+<string name="various_fleetingglance_pickup_title">Pick up</string>
+
+<string name="various_fleetingglance_pickup_summ">Glance when device is picked up.</string>
+
+<string name="various_fleetingglance_proximity_title">Pocket mode</string>
+
+<string name="various_fleetingglance_proximity_summ">"Do not wake device if it's in the pocket."</string>
+
+<string name="wakegestures_mod">Wake gestures</string>
+
+<string name="wakegestures_haptic_title">Haptic feedback</string>
+
+<string name="wakegestures_haptic_summ">Short vibration after successful gesture</string>
+
+<string name="wakegestures_onboot_title">Activate on boot</string>
+
+<string name="wakegestures_onboot_summ">Disable this option if you are having problems with touchscreen after restart</string>
+
+<string name="wakegestures_dt2w_title">Double tap</string>
+
+<string name="wakegestures_dt2w_summ">Action for double tap</string>
+
+<string name="wakegestures_swipedown_title">Swipe down</string>
+
+<string name="wakegestures_swipedown_summ">Action for swipe down gesture</string>
+
+<string name="wakegestures_swipeup_title">Swipe up</string>
+
+<string name="wakegestures_swipeup_summ">Action for swipe up gesture</string>
+
+<string name="wakegestures_swipeleft_title">Swipe left</string>
+
+<string name="wakegestures_swipeleft_summ">Action for swipe left gesture</string>
+
+<string name="wakegestures_swiperight_title">Swipe right</string>
+
+<string name="wakegestures_swiperight_summ">Action for swipe right gesture</string>
+
+<string name="wakegestures_logopress_title">Logo</string>
+
+<string name="wakegestures_logopress_summ">Action for logo long press</string>
+
+<string name="wakegestures_volume_title">Volume keys</string>
+
+<string name="wakegestures_volume_summ">Action for pressing volume keys in landscape</string>
+
+<string name="wakegestures_not_supported">Wake gestures require kernel support, ask your kernel developer to add it or use latest ElementalX</string>
+
+<string name="wakegestures_hint">"Enable Wake gestures from the action bar above. Soft reboot will be required only once after that."</string>
+
+<string name="touchlock_not_supported">Touch lock mod requires kernel with Wake gestures support, ask your kernel developer to add it or use latest ElementalX</string>
+
+<string name="touchlock_hint">Tap the second icon above to start recording sequence. Tap it again to save. 12 steps max. Lockdown can be enabled from Power and Home popup menus.</string>
+
+<string name="touchlock_seq">Current sequence</string>
+
+<string name="touchlock_not_defined">not defined</string>
+
+<string name="touchlock_power_summary">Complete device lockdown</string>
+
+<string name="touchlock_hint_mod">"Enable touch lock from the action bar above. Soft reboot will be required only once after that."</string>
+
+<string name="touchlock_root_remind">You must enable \"Trust system user\" option in SuperSU or device will freeze on boot!</string>
+
+<string name="persistent_mods">Always active mods</string>
+
+<string name="persist_adgrid_title">App drawer grid size</string>
+
+<string name="persist_adgrid_summ">Add new grid sizes (5x5, 4x6 and 5x6) to app drawer menu.</string>
+
+<string name="persist_unhideprefs_title">Revealed settings</string>
+
+<string name="persist_unhideprefs_summ">"Show 'ROM version', 'Distribution time' and 'Hardware information' in About section of Settings."</string>
+
+<string name="persist_appfilter_title">Apps filter</string>
+
+<string name="persist_appfilter_summ">Add an option to display only disabled packages in Apps.</string>
+
+<string name="persist_recentslongtap_title">Popup menu in recent apps list</string>
+
+<string name="persist_recentslongtap_summ">Show popup menu on long press for every app in recents list.</string>
+
+<string name="persist_installer_title">Display app version</string>
+
+<string name="persist_installer_summ">Add package version to installer title when updating or installing an app.</string>
+
+<string name="toolbox">Toolbox settings</string>
+
+<string name="toolbox_show_icon_title">Fast access icon</string>
+
+<string name="toolbox_show_icon_summ">Show Toolbox icon in Settings.</string>
+
+<string name="toolbox_material_header_title">Header color</string>
+
+<string name="toolbox_material_header_summ">Change Material header color.</string>
+
+<string name="toolbox_material_accent_title">Accent color</string>
+
+<string name="toolbox_material_accent_summ">Change Material accent color.</string>
+
+<string name="toolbox_material_background_title">Theme</string>
+
+<string name="toolbox_material_background_summ">"Change app's background and text colors."</string>
+
+<string name="toolbox_l10n_title">Localization</string>
+
+<string name="toolbox_l10n_summ">Download and update language pack.</string>
+
+<string name="toolbox_l10n_btn">Update</string>
+
+<string name="toolbox_l10n_ready">Translated strings</string>
+
+<string name="troubleshoot">Troubleshooting</string>
+
+<string name="toolbox_acrasend_title">Send detailed report</string>
+
+<string name="toolbox_acrasend_summ">"Collect device and environment info, logcat and Xposed log, and send them to developer. Internet connection is required."</string>
+
+<string name="toolbox_acramail_title">Feedback</string>
+
+<string name="toolbox_acramail_summ">Enter your contact information and it will be included in detailed and crash reports.</string>
+
+<string name="toolbox_acramail_tip_title">Contact information</string>
+
+<string name="toolbox_acramail_tip">"It's absolutely necessary to fill this in if you expect to receive replies to your crash reports. Use e-mail, ICQ, XDA or 4PDA nickname. Tap Feedback below to do it now."</string>
+
+<string name="support">Support</string>
+
+<string name="support_s6t_title">Sense Toolbox Site</string>
+
+<string name="support_s6t_summ">Find infos and changelog for the app here.</string>
+
+<string name="support_bug_title">Report a bug</string>
+
+<string name="support_bug_summ">Send us a bug report or a feature request via official issue tracker.</string>
+
+<string name="support_donate_title">Donate</string>
+
+<string name="support_donate_summ">Best way to express your gratitude for this awesome module :)</string>
+
+<string name="support_blog_title">Android Revolution HD Blog</string>
+
+<string name="support_blog_summ">Get the latest news and updates for your favorite ROM here.</string>
+
+<string name="support_artmod_title">ARTMOD ROM</string>
+
+<string name="support_artmod_summ">Recommended Sense 7 ROM for HTC One M7.</string>
+
+<string name="toggle_wifi_on">Wi-Fi enabled</string>
+
+<string name="toggle_wifi_off">Wi-Fi disabled</string>
+
+<string name="toggle_bt_on">Bluetooth enabled</string>
+
+<string name="toggle_bt_off">Bluetooth disabled</string>
+
+<string name="toggle_gps_on">GPS enabled</string>
+
+<string name="toggle_gps_off">GPS disabled</string>
+
+<string name="toggle_nfc_on">NFC enabled</string>
+
+<string name="toggle_nfc_off">NFC disabled</string>
+
+<string name="toggle_sound_normal">Sound profile: Normal</string>
+
+<string name="toggle_sound_silent">Sound profile: Silent</string>
+
+<string name="toggle_sound_vibrate">Sound profile: Vibrate</string>
+
+<string name="toggle_autobright_on">Auto brightness enabled</string>
+
+<string name="toggle_autobright_off">Auto brightness disabled</string>
+
+<string name="toggle_autorotate_on">Auto rotation enabled</string>
+
+<string name="toggle_autorotate_off">Auto rotation disabled</string>
+
+<string name="toggle_flash_low">Flashlight: low</string>
+
+<string name="toggle_flash_med">Flashlight: medium</string>
+
+<string name="toggle_flash_high">Flashlight: high</string>
+
+<string name="toggle_flash_off">Flashlight: off</string>
+
+<string name="toggle_mobiledata_on">Mobile data enabled</string>
+
+<string name="toggle_mobiledata_off">Mobile data disabled</string>
+
+<string name="appdetails_launch">Launch</string>
+
+<string name="appdetails_package">Package</string>
+
+<string name="appdetails_apk_file">APK filename</string>
+
+<string name="appdetails_apk_path">APK path</string>
+
+<string name="appdetails_data_path">Data path</string>
+
+<string name="appdetails_dev">Developer</string>
+
+<string name="appdetails_proc_name">Process name</string>
+
+<string name="appdetails_uid">User ID</string>
+
+<string name="appdetails_sdk">Target SDK Version</string>
+
+<string name="apps_disabled">Show disabled only</string>
+
+<string name="apps_all">Show all</string>
+
+<string name="select_app">Select app</string>
+
+<string name="about_devs">Developers</string>
+
+<string name="about_devs_names">"Langer Hans Mikanoshi"</string>
+
+<string name="about_rom_base">ROM base</string>
+
+<string name="about_android_ver">Android version</string>
+
+<string name="about_thanks">Thanks</string>
+
+<string name="about_thanks_data">"mike1986 - for ARHD and platform to release this app Acogu - for Sense 6 Toolbox logo and main app icon descenpet - for the initial idea of reorder edits vomer - for CleanBeam mods Dunc001 and LeSScro - for their APM icons RU and AU teams (and some other early beta testers) - for testing and giving valuable feedback ARHD users - for their patience"</string>
+
+<string name="about_l10n">Translation</string>
+
+<string name="about_l10n_notfound">Language pack is not downloaded yet</string>
+
+<string name="about_l10n_de">German</string>
+
+<string name="about_l10n_es">Spanish</string>
+
+<string name="about_l10n_fr">French</string>
+
+<string name="about_l10n_hr">Croatian</string>
+
+<string name="about_l10n_it">Italian</string>
+
+<string name="about_l10n_nl">Dutch</string>
+
+<string name="about_l10n_pl">Polish</string>
+
+<string name="about_l10n_ro">Romanian</string>
+
+<string name="about_l10n_ru">Russian</string>
+
+<string name="about_l10n_tr">Turkish</string>
+
+<string name="about_l10n_vi">Vietnamese</string>
+
+<string name="about_l10n_zh">Chinese</string>
+
+<string name="about_l10n_zh_TW">Traditional Chinese</string>
+
+<string name="about_l10n_cs">Czech</string>
+
+<string name="about_l10n_pt_BR">Portuguese (Brazil)</string>
+
+<string name="about_l10n_hi">Hindi</string>
+
+<string name="about_l10n_ja">Japanese</string>
+
+<string name="about_l10n_bg">Bulgarian</string>
+
+<string name="about_l10n_sv">Swedish</string>
+
+<string name="array_default">Default</string>
+
+<string name="array_cam_actions_shutter">Shutter</string>
+
+<string name="array_cam_actions_focus">Focus</string>
+
+<string name="array_cam_actions_focusshutter">Force focus, then shutter</string>
+
+<string name="array_cam_actions_video">Record Video</string>
+
+<string name="array_cam_actions_zoom_in">Zoom in</string>
+
+<string name="array_cam_actions_zoom_out">Zoom out</string>
+
+<string name="array_cam_actions_nothing">No change</string>
+
+<string name="array_batt_icon_none">No icon</string>
+
+<string name="array_batt_icon_with_percentage">With percentage</string>
+
+<string name="array_wifi_icon_style1">Style 1</string>
+
+<string name="array_wifi_icon_style2">Style 2</string>
+
+<string name="array_clock_style_center">Center clock</string>
+
+<string name="array_clock_style_none">No clock</string>
+
+<string name="array_footeralpha_style_dynamic">Dynamic transparency</string>
+
+<string name="array_footeralpha_style_invis">Fully transparent</string>
+
+<string name="array_global_actions_none">No action</string>
+
+<string name="array_global_actions_notif">Expand notifications drawer</string>
+
+<string name="array_global_actions_eqs">Expand EQS panel</string>
+
+<string name="array_global_actions_lock">Lock device</string>
+
+<string name="array_global_actions_sleep">Go to sleep</string>
+
+<string name="array_global_actions_screenshot">Take screenshot</string>
+
+<string name="array_global_actions_clock">Default clock app</string>
+
+<string name="array_global_actions_calendar">Default calendar app</string>
+
+<string name="array_global_actions_launch">Launch app</string>
+
+<string name="array_global_actions_shortcut">Launch shortcut</string>
+
+<string name="array_global_actions_toggle">Toggle settings</string>
+
+<string name="array_global_toggle_wifi">Wi-Fi</string>
+
+<string name="array_global_toggle_bt">Bluetooth</string>
+
+<string name="array_global_toggle_gps">GPS</string>
+
+<string name="array_global_toggle_nfc">NFC</string>
+
+<string name="array_global_toggle_sound">Sound profile</string>
+
+<string name="array_global_toggle_brightness">Auto brightness</string>
+
+<string name="array_global_toggle_rotation">Auto rotation</string>
+
+<string name="array_global_toggle_torch">Flashlight</string>
+
+<string name="array_global_toggle_mobiledata">Mobile data</string>
+
+<string name="array_home_menu_apps">Manage apps</string>
+
+<string name="array_home_menu_personalize">Personalize</string>
+
+<string name="array_home_menu_settings">Settings</string>
+
+<string name="array_home_menu_wifi">Wi-Fi</string>
+
+<string name="array_home_menu_apm">APM</string>
+
+<string name="array_home_menu_draglock">Lock launcher</string>
+
+<string name="array_home_menu_dragunlock">Unlock launcher</string>
+
+<string name="array_home_menu_lockdown">Lock down device</string>
+
+<string name="array_recents_menu_info">Show info</string>
+
+<string name="array_recents_menu_playstore">Play Store</string>
+
+<string name="array_recents_menu_close">Close</string>
+
+<string name="array_recents_menu_closeothers">Close others</string>
+
+<string name="array_screen_anim_none">None</string>
+
+<string name="array_screen_anim_fade">Fade</string>
+
+<string name="array_screen_anim_crt">CRT</string>
+
+<string name="array_screen_anim_colorfade">Color Fade</string>
+
+<string name="array_color_blue">Blue</string>
+
+<string name="array_color_green">Green</string>
+
+<string name="array_color_red">Red</string>
+
+<string name="array_color_orange">Orange</string>
+
+<string name="array_color_white">White</string>
+
+<string name="array_media_none">No change</string>
+
+<string name="array_media_playpause">Play/Pause</string>
+
+<string name="array_media_next">Next track</string>
+
+<string name="array_media_prev">Previous track</string>
+
+<string name="array_large_photo_default">Default</string>
+
+<string name="array_large_photo_rectangular">Rectangular</string>
+
+<string name="array_large_photo_max">Maximum</string>
+
+<string name="array_header_click_clock">"Time: Open Clock app Date: Open Calendar app"</string>
+
+<string name="array_header_click_sysinfo">"Time: Open Clock app Date: Toggle system monitoring"</string>
+
+<string name="array_keyslight_dim">Dim</string>
+
+<string name="array_keyslight_extradim">Extra dim</string>
+
+<string name="array_keyslight_maxdim">Barely visible</string>
+
+<string name="array_keyslight_alwaysoff">Always off</string>
+
+<string name="array_toasts_icon">Icon</string>
+
+<string name="array_toasts_label">Label</string>
+
+<string name="array_toasts_both">Icon and label</string>
+
+<string name="array_wakegestures_disable">Disable</string>
+
+<string name="array_wakegestures_wakeup">Wake up</string>
+
+<string name="array_wakegestures_wakeupbypass">Wake up bypassing lockscreen</string>
+
+<string name="array_wakegestures_blinkfeed">Go to BlinkFeed</string>
+
+<string name="array_wakegestures_home">Go to main home screen</string>
+
+<string name="array_wakegestures_quickcall">Quick Call (voice dial)</string>
+
+<string name="array_wakegestures_flashlight">Flashlight (no wake up)</string>
+
+<string name="array_wakegestures_appdrawer">Open app drawer</string>
+
+<string name="array_popupbkg_dim">Dim</string>
+
+<string name="array_popupbkg_blur">Static blur</string>
+
+<string name="array_popupbkg_blur_and_dim">Dimmed static blur</string>
+
+<string name="array_popuphdr_empty">Empty</string>
+
+<string name="array_popuphdr_datetime">Time and date</string>
+
+<string name="array_popuphdr_dashclock">DashClock widget</string>
+
+<string name="array_googleapp_withborder">Fully transparent with border</string>
+
+<string name="array_autoeqs_always">Always</string>
+
+<string name="array_autoeqs_clearable">If no clearable notifications are active</string>
+
+<string name="array_stock">"Stock Android Open/close: slide up/slide down"</string>
+
+<string name="array_htc">"HTC Open/close: slide up with fade/none"</string>
+
+<string name="array_effect_none">No effect</string>
+
+<string name="array_effect_srs">Boomsound (SRS)</string>
+
+</resources>
